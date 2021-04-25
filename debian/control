@@ -1,0 +1,33 @@
+Source: droidcam
+Section: video
+Priority: optional
+Maintainer: Robin Gustafsson <robin@rgson.se>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-exec,
+ pkg-config,
+ libavutil-dev,
+ libswscale-dev,
+ libasound2-dev,
+ libspeex-dev,
+ libusbmuxd-dev,
+ libplist-dev,
+ libturbojpeg0-dev,
+ libgtk-3-dev,
+Standards-Version: 4.5.1
+Homepage: https://www.dev47apps.com/
+Rules-Requires-Root: no
+
+Package: droidcam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: program to turn your phone/tablet into a webcam
+ DroidCam turns your phone/tablet into a webcam for your PC.
+ Use it with chat programs like Zoom, MS Teams, and Skype.
+ .
+ Main Features:
+  * Chat using "DroidCam Webcam" on your computer, including Sound and Picture.
+  * Connect over WiFi or USB cable.
+  * Unlimited free usage at standard definition.
+  * Keep using your phone with DroidCam in background (Android).
+  * Simple, safe, efficient, and trusted by millions of people worldwide.
