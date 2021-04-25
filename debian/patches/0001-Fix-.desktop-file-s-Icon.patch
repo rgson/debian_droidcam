@@ -1,0 +1,25 @@
+From: Robin Gustafsson <robin@rgson.se>
+Date: Sun, 25 Apr 2021 23:53:32 +0200
+Subject: Fix .desktop file's Icon
+
+The icon is not installed in /opt where upstream would place it.
+It's installed in the standard location.
+
+Forwarded: not-needed
+---
+ droidcam.desktop | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/droidcam.desktop b/droidcam.desktop
+index 6ef65ff..0987f3e 100644
+--- a/droidcam.desktop
++++ b/droidcam.desktop
+@@ -4,7 +4,7 @@ Name=DroidCam
+ Comment=Use your phone as a webcam
+ TryExec=/usr/bin/droidcam
+ Exec=/usr/bin/droidcam
+-Icon=/opt/droidcam-icon.png
++Icon=droidcam
+ Terminal=false
+ Type=Application
+ Categories=Video;AudioVideo;
