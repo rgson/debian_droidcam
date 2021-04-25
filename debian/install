@@ -1,4 +1,5 @@
 #!/usr/bin/dh-exec
+debian/installed/modules-load.d usr/lib
 droidcam usr/bin
 droidcam-cli usr/bin
 droidcam.desktop usr/share/applications

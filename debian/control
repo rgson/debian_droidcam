@@ -20,7 +20,7 @@ Rules-Requires-Root: no
 
 Package: droidcam
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, v4l2loopback-dkms
 Description: program to turn your phone/tablet into a webcam
  DroidCam turns your phone/tablet into a webcam for your PC.
  Use it with chat programs like Zoom, MS Teams, and Skype.
