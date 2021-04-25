@@ -1,0 +1,5 @@
+#!/usr/bin/dh-exec
+droidcam usr/bin
+droidcam-cli usr/bin
+droidcam.desktop usr/share/applications
+icon2.png => usr/share/icons/hicolor/96x96/apps/droidcam.png
